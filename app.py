@@ -43,8 +43,15 @@ def page3():
         return render_template("page3.html", firstName = session['firstName'], lastName=session['lastName'])
 
 @app.route("/page4",  methods = ["GET", "POST"])
-def page3():
+def page4():
     if request.method == "POST":
         return render_template("page4.html", firstName = session['firstName'], lastName=session['lastName'])
     elif request.method == "GET":
         return render_template("page4.html", firstName = session['firstName'], lastName=session['lastName'])
+
+@app.route("/page5",  methods = ["GET", "POST"])
+def page5():
+    if request.method == "POST":
+        return render_template("page5.html", firstName = session['firstName'], lastName=session['lastName'])
+    elif request.method == "GET":
+        return render_template("page5.html", firstName = session['firstName'], lastName=session['lastName'])
