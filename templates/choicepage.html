@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+
+{% block body %}
+
+<h1> <tt>Good Morning, {{firstName}} {{lastName}}. <br>Here are your daily appointments. <br>
+    Who would you like to send in first?</tt>
+</h1>
+
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Concern</th>
+            <th scope="col">Select</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>AI may be collecting personal data</td>
+            <td><a href="/page2" >Select</a></td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Susan</td>
+            <td>App may be disciminating against her</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>Fear that they are not performing to standards</td>
+            <td>@twitter</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}

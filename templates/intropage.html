@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+
+{% block body %}
+    <body>
+        <h1>Hello! </h1>
+        <h2>While doing research on this topic, there was an anecdote that I read that went along the lines of “if you could choose to completely get rid of numbers or letters, which would you pick?” 
+            <br>
+            <br>
+            Although this may seem like a ridiculous question, the objectively correct answer would be to choose numbers since they can easily be translated to letters. However, in today’s society,
+            numbers are being used for more than just values and letters. Today, they are being used to predict our future. Through machine learning and artificial intelligence, software engineers are able to feed algorithms with data to make predictions with almost creepy precision. This can already be seen with how Amazon recommends items that you always seem to want, or how the ads that appear on your browsers always seem to be relevant to you.
+            <br>
+            <br>
+            As algorithms become more complicated and advanced, they will only become more pervasive in our everyday life
+            <br>
+            <br>
+            In this Choose your Adventure, we will go over one potential future ruled by algorithms.
+            <br><br>
+        </h2>
+        <form action = "/" method="post">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Your First Name</label>
+                    <input type="firstName" class="form-control" id="firstName" placeholder="First Name" name = "firstName">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Your Last Name</label>
+                    <input type="lastName" class="form-control" id="lastName" placeholder="Last Name" name = "lastName">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary"> Start your adventure </button>
+        </form>
+
+        
+    </body>
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+
+{% block body %}
+    <body>
+        <h2>
+            <i> You select <tt> Mark</tt>. </t></i><br>
+            Immediately, a  teenager around the age of 14 walks into the room. <br><br>
+            
+            "Hello Mark. What can I do for you today?" <br><br>
+            
+            "Alright Advisior {{lastName}}, I'll cut to the chase." <br>
+            "I think that the mandatory app that the school makes us download is spying on us." <br><br>
+            
+            "What makes you say that?" <br><br>
+            
+            "Last night, I was watching some videos on a physics topic on my phone and then I was talking about it with my friend Richard this morning. <br>
+            "I have no idea how it did it, but part of the daily lesson material for me and Richard had that exact same topic on it." <br>
+            "I think this is way too suspicious to be a coincidence." <br><br>
+            
+            Although the SPA had only been in use for a couple of months now, you have had similar concerns from other students. <br>
+            Even you are starting to believe that the app is monitoring the students. <br><br>
+            
+            What do you decide to do?<br><br>
+        </h2>
+
+        <form action = "page3" method="get">
+            <button type="submit" class="btn btn-primary"> Support the system </button>
+        </form>
+        <br><br>
+        <form action = "page4" method="get">
+            <button type="submit" class="btn btn-primary"> Reject the system </button>
+        </form>
+        <br><br>
+    </body>
+{% endblock %}

@@ -1,9 +1,37 @@
 {% extends "base.html" %}
 
-{% block head %}
-    <title>Homepage</title>
-{% endblock %}
-{% block body %}
 
-    <h1> {{ lastName }} </h1>
+{% block body %}
+    <body>
+        <h2>
+            You wake to the sound of your alarm. <br><br>
+            <tt> Good Morning, {{firstName}}. The weather today is sunny with a high of 45 degrees Celsius. Please make sure to bring a jacket. </tt> <br><br>
+            
+            You quickly get dressed and drive to work. <br><br>
+            
+            As you pull into the school, you can see a line of students walking into the building. Most of them have frowns on their faces. <br><br>
+            
+            As usual, the driveway is nearly empty. Many of the teachers decided to quit when the school introduced the <b>Student Predictive Algorithm</b> or <b>SPA</b> for short. <br><br>
+            
+            This revolutionary algorithm promised to give students personalized coursework based on their performance. As this was a private school, the parents only seemed to care  
+            about grades and improvements, which it brought.<br><br>
+            
+            The teachers on the otherhand, believed that students were more than just a score. After much protesting, the remaining teachers were let go and replaced with personalized teaching AI. <br>
+            
+            All of this had only occured a few months ago. <br><br>
+            
+            You scan into the building and make your way to your office. At your door, you can already see a few students waiting for you. <br><br>
+            
+            As an advisor and one of the few remaining adults in the building, students often come to you with their concerns. <br><br>
+            
+            You boot up your computer and check your appointments for the day. <br><br>
+            
+        </h2>
+
+        <form action = "choicepage" method="get">
+            <button type="submit" class="btn btn-primary"> View your screen </button>
+        </form>
+
+        
+    </body>
 {% endblock %}

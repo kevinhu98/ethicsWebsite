@@ -9,15 +9,42 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 app.run(debug=True, host='0.0.0.0')
 
 @app.route("/", methods = ["GET", "POST"])
-def startpage():
+def intropage():
     if request.method == "POST":
         session['firstName'] = request.form['firstName']
         session['lastName'] = request.form['lastName']
         return redirect(url_for('page1'))
     elif request.method == "GET":
-        return render_template("startpage.html")
+        return render_template("intropage.html")
 
-@app.route("/page1")
+@app.route("/choicepage")
+def choicepage():
+    return render_template("choicepage.html", firstName = session['firstName'], lastName=session['lastName'])
+
+@app.route("/page1",  methods = ["GET", "POST"])
 def page1():
-    return render_template("page1.html", lastName=session['lastName'])
+    if request.method == "POST":
+        return render_template("choicepage.html", firstName = session['firstName'], lastName=session['lastName'])
+    elif request.method == "GET":
+        return render_template("page1.html", firstName = session['firstName'], lastName=session['lastName'])
 
+@app.route("/page2",  methods = ["GET", "POST"])
+def page2():
+    if request.method == "POST":
+        return render_template("choicepage.html", firstName = session['firstName'], lastName=session['lastName'])
+    elif request.method == "GET":
+        return render_template("page2.html", firstName = session['firstName'], lastName=session['lastName'])
+
+@app.route("/page3",  methods = ["GET", "POST"])
+def page3():
+    if request.method == "POST":
+        return render_template("page3.html", firstName = session['firstName'], lastName=session['lastName'])
+    elif request.method == "GET":
+        return render_template("page3.html", firstName = session['firstName'], lastName=session['lastName'])
+
+@app.route("/page4",  methods = ["GET", "POST"])
+def page3():
+    if request.method == "POST":
+        return render_template("page4.html", firstName = session['firstName'], lastName=session['lastName'])
+    elif request.method == "GET":
+        return render_template("page4.html", firstName = session['firstName'], lastName=session['lastName'])
