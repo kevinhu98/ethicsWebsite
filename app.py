@@ -55,3 +55,29 @@ def page5():
         return render_template("page5.html", firstName = session['firstName'], lastName=session['lastName'])
     elif request.method == "GET":
         return render_template("page5.html", firstName = session['firstName'], lastName=session['lastName'])
+
+@app.route("/page6",  methods = ["GET", "POST"])
+def page6():
+    if request.method == "POST":
+        return render_template("page6.html", firstName = session['firstName'], lastName=session['lastName'])
+    elif request.method == "GET":
+        return render_template("page6.html", firstName = session['firstName'], lastName=session['lastName'])
+
+@app.route("/page7",  methods = ["GET", "POST"])
+def page7():
+    if request.method == "POST":
+        session['userresponse'] = request.form['userresponse']
+        return render_template("page9.html", firstName = session['firstName'], lastName=session['lastName'], response = session['userresponse'])
+    elif request.method == "GET":
+        return render_template("page7.html", firstName = session['firstName'], lastName=session['lastName'])
+
+@app.route("/page8",  methods = ["GET", "POST"])
+def page8():
+    if request.method == "POST":
+        return render_template("page8.html", firstName=session['firstName'], lastName=session['lastName'])
+    elif request.method == "GET":
+        return render_template("page8.html", firstName = session['firstName'], lastName=session['lastName'])
+
+@app.route("/page9",  methods = ["GET", "POST"])
+def page9():
+    return render_template("choicepage.html", firstName = session['firstName'], lastName=session['lastName'], response = session['userresponse'])

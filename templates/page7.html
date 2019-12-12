@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+
+{% block body %}
+    <body>
+        <h2>
+            <i> You select <tt> Susan</tt>. </i><br>
+            Immediately, a younger child around the age of 9 walks into the room.<br>
+            You recognize this child. <br>
+            You had been advising her previously due to her Attention Deficit Hyperactivity Disorder (ADHD) <br><br>
+            
+            "Hey Susan. What can I do for you today?" <br><br>
+            
+            "Hi {{firstName}}. It's not going too well." <br>
+            "The app said that I should see you about my grades" <br>
+            "Sure thing, just give me a second to pull it up" <br><br>
+            
+            Although you have many criticisms of the app, one thing that always stood out to you was the clean user interface. <br>
+            You enter Susan's full name into the database. <br><br>
+            
+            As soon as you hit enter, the screen prints in bright red letters: <br>
+            <font color="red">Warning: Student has a 99.4% chance of failing this semester </font> <br><br>
+            
+        </h2>
+
+        <form action = "page9" method="post">
+            <label for="userresponse" >Comforting Phrase</label>
+            <input type="userresponse" class="form-control" id="userresponse" placeholder="Comforting phrase" name ="userresponse" >
+            <button type="submit" class="btn btn-primary"> Tell her the truth </button>
+        </form>
+        
+        <br><br>
+        
+        <form action = "page4" method="get">
+            <button type="submit" class="btn btn-primary"> Lie to her </button>
+        </form>
+        
+        <br><br>
+    
+    </body>
+{% endblock %}
