@@ -13,7 +13,7 @@ def intropage():
     if request.method == "POST":
         session['firstName'] = request.form['firstName']
         session['lastName'] = request.form['lastName']
-        return redirect(url_for('story', page=1))
+        return redirect(url_for('page1'))
     elif request.method == "GET":
         return render_template("intropage.html")
 
@@ -21,10 +21,12 @@ def intropage():
 def choicepage():
     return render_template("choicepage.html", firstName = session['firstName'], lastName=session['lastName'])
 
-@app.route("/story/<int:page>", methods=["GET"])
-def story(page):
-    pageName = "page" + str(page) + ".html"
-    return render_template(pageName, firstName=session['firstName'], lastName=session['lastName'])
+@app.route("/page1",  methods = ["GET", "POST"])
+def page1():
+    if request.method == "POST":
+        return render_template("page1.html", firstName = session['firstName'], lastName=session['lastName'])
+    elif request.method == "GET":
+        return render_template("page1.html", firstName = session['firstName'], lastName=session['lastName'])
 
 @app.route("/page2",  methods = ["GET", "POST"])
 def page2():
@@ -65,7 +67,7 @@ def page6():
 def page7():
     if request.method == "POST":
         session['userresponse'] = request.form['userresponse']
-        return render_template("page9.html", firstName = session['firstName'], lastName=session['lastName'], response = session['userresponse'])
+        return render_template("page8.html", firstName = session['firstName'], lastName=session['lastName'], response = session['userresponse'])
     elif request.method == "GET":
         return render_template("page7.html", firstName = session['firstName'], lastName=session['lastName'])
 
@@ -74,8 +76,8 @@ def page8():
     if request.method == "POST":
         return render_template("page8.html", firstName=session['firstName'], lastName=session['lastName'])
     elif request.method == "GET":
-        return render_template("page8.html", firstName = session['firstName'], lastName=session['lastName'])
+        return render_template("page8.html", firstName=session['firstName'], lastName=session['lastName'])
 
 @app.route("/page9")
 def page9():
-    return render_template("choicepage.html", firstName = session['firstName'], lastName=session['lastName'], response = session['userresponse'])
+    return render_template("page9.html", firstName = session['firstName'], lastName=session['lastName'])
