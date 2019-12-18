@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0f1bcc89-e60a-48a0-92fb-64bcbcefa9cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page6.html" beforeDir="false" afterPath="$PROJECT_DIR$/page6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/choicepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/choicepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intropage.html" beforeDir="false" afterPath="$PROJECT_DIR$/intropage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page10.html" beforeDir="false" afterPath="$PROJECT_DIR$/page10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page11.html" beforeDir="false" afterPath="$PROJECT_DIR$/page11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page12.html" beforeDir="false" afterPath="$PROJECT_DIR$/page12.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page7.html" beforeDir="false" afterPath="$PROJECT_DIR$/page7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page8.html" beforeDir="false" afterPath="$PROJECT_DIR$/page8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page9.html" beforeDir="false" afterPath="$PROJECT_DIR$/page9.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +21,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+            <state relative-caret-position="634">
+              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/choicepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -32,15 +41,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="512">
               <caret line="32" column="85" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page8.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -58,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/page5.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -73,10 +73,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page10.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/intropage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="131" selection-start-line="17" selection-start-column="131" selection-end-line="17" selection-end-column="131" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page3.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -86,24 +104,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
               <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page10.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page 11.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -127,17 +127,19 @@
         <option value="$PROJECT_DIR$/base.html" />
         <option value="$PROJECT_DIR$/page2.html" />
         <option value="$PROJECT_DIR$/page4.html" />
-        <option value="$PROJECT_DIR$/choicepage.html" />
         <option value="$PROJECT_DIR$/page 7.html" />
         <option value="$PROJECT_DIR$/page 9.html" />
-        <option value="$PROJECT_DIR$/intropage.html" />
         <option value="$PROJECT_DIR$/page1.html" />
         <option value="$PROJECT_DIR$/page6.html" />
         <option value="$PROJECT_DIR$/page8.html" />
-        <option value="$PROJECT_DIR$/page7.html" />
         <option value="$PROJECT_DIR$/page9.html" />
         <option value="$PROJECT_DIR$/page 11.html" />
+        <option value="$PROJECT_DIR$/page11.html" />
+        <option value="$PROJECT_DIR$/page12.html" />
+        <option value="$PROJECT_DIR$/page7.html" />
+        <option value="$PROJECT_DIR$/choicepage.html" />
         <option value="$PROJECT_DIR$/page10.html" />
+        <option value="$PROJECT_DIR$/intropage.html" />
       </list>
     </option>
   </component>
@@ -210,11 +212,12 @@
       <workItem from="1575948907357" duration="1260000" />
       <workItem from="1576117355693" duration="8443000" />
       <workItem from="1576525181741" duration="17574000" />
+      <workItem from="1576627887791" duration="6379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56080000" />
+    <option name="totallyTimeSpent" value="62459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,9 +230,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.08635394" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.086886995" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="1" />
@@ -306,23 +310,7 @@
     <entry file="file://$PROJECT_DIR$/startpage.html" />
     <entry file="file://$PROJECT_DIR$/page 7.html" />
     <entry file="file://$PROJECT_DIR$/page 9.html" />
-    <entry file="file://$PROJECT_DIR$/intropage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/choicepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/7.html" />
     <entry file="file://$PROJECT_DIR$/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -337,17 +325,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/page 11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="164" selection-start-line="28" selection-start-column="164" selection-end-line="28" selection-end-column="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page8.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -361,7 +363,7 @@
     <entry file="file://$PROJECT_DIR$/page5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -375,7 +377,7 @@
     <entry file="file://$PROJECT_DIR$/page3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -386,6 +388,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/page7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page9.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -393,17 +402,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page10.html">
+    <entry file="file://$PROJECT_DIR$/choicepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="560">
+          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page 11.html">
+    <entry file="file://$PROJECT_DIR$/page10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="288">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intropage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="131" selection-start-line="17" selection-start-column="131" selection-end-line="17" selection-end-column="131" />
         </state>
       </provider>
     </entry>

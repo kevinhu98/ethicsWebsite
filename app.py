@@ -66,8 +66,7 @@ def page6():
 @app.route("/page7",  methods = ["GET", "POST"])
 def page7():
     if request.method == "POST":
-        session['userresponse'] = request.form['userresponse']
-        return render_template("page8.html", firstName = session['firstName'], lastName=session['lastName'], response = session['userresponse'])
+        return render_template("page8.html", firstName = session['firstName'], lastName=session['lastName'])
     elif request.method == "GET":
         return render_template("page7.html", firstName = session['firstName'], lastName=session['lastName'])
 
@@ -81,3 +80,15 @@ def page8():
 @app.route("/page9")
 def page9():
     return render_template("page9.html", firstName = session['firstName'], lastName=session['lastName'])
+
+@app.route("/page10")
+def page10():
+    return render_template("page10.html", firstName = session['firstName'], lastName=session['lastName'])
+
+@app.route("/page11")
+def page11():
+    return render_template("page11.html", firstName = session['firstName'], lastName=session['lastName'])
+
+@app.route("/page12")
+def page12():
+    return render_template("page12.html", firstName = session['firstName'], lastName=session['lastName'])
